@@ -28,8 +28,8 @@ login_button = driver.find_element(By.ID, 'login')
 #login_button.click()
 
 # Send data
-username_field.send_keys('bjaiswal')
-password_field.send_keys('Gen@20081981')
+username_field.send_keys('xxxx')
+password_field.send_keys('xxxxx')
 driver.execute_script("arguments[0].click();", login_button)
 
 input("Press Enter to close the browser...")
